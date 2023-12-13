@@ -29,11 +29,13 @@ Button M18: clear all characters
 
 Overview of the code structure (what code does what):
 
+Our system takes user input via 5 buttons on the FPGA board. The button signals run through debouncers afterwhich, their outputs are fed into the morse2text translator module. The morse2text module, based on order of input, will populate 2 registers with binary values, 0 for dot and 1 for dash. these registers are then fed into the FSM which based on how many times each button was pressed, will determine which decoder to use. The decoder will decode the bianary into anode and cathode bit values that can light up the seven segemnt display. 
+
 Block Diagram (full system):
 
 ![Morse_Code_Working -  X__Morse_Code_Working_Morse_Code_Working xpr  - Vivado 2022 2 12_13_2023 4_37_27 PM](https://github.com/aabenham/EC311_Al-Project/assets/140469099/27073280-520d-4ec0-8643-fff20849d860)
 
-Block Diagram (fsm with decoder inside)
+Block Diagram (fsm with decoder inside):
 
 ![Morse_Code_Working -  X__Morse_Code_Working_Morse_Code_Working xpr  - Vivado 2022 2 12_13_2023 4_39_34 PM](https://github.com/aabenham/EC311_Al-Project/assets/140469099/849da4b6-3a5c-4ac3-ae87-42af05bb2021)
 
