@@ -37,5 +37,7 @@ Block Diagram (full system):
 
 Block Diagram (fsm with decoder inside):
 
-![Morse_Code_Working -  X__Morse_Code_Working_Morse_Code_Working xpr  - Vivado 2022 2 12_13_2023 4_39_34 PM](https://github.com/aabenham/EC311_Al-Project/assets/140469099/849da4b6-3a5c-4ac3-ae87-42af05bb2021)
+![Morse_Code_Working -  X__Morse_Code_Working_Morse_Code_Working xpr  - Vivado 2022 2 12_13_2023 5_46_10 PM](https://github.com/aabenham/EC311_Al-Project/assets/140469099/fcdd8881-e65e-4a70-9f18-775b53346e82)
+![Morse_Code_Working -  X__Morse_Code_Working_Morse_Code_Working xpr  - Vivado 2022 2 12_13_2023 5_46_18 PM](https://github.com/aabenham/EC311_Al-Project/assets/140469099/f7fa4b73-1de5-4572-9da8-a8836f462a42)
+
 
