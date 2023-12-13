@@ -22,6 +22,7 @@ Button P18: clear last typed character
 Button M18: clear all characters
 
 7 Segment Letter Representations:
+
 <img width="541" alt="Screenshot 2023-12-13 at 4 35 24 PM" src="https://github.com/aabenham/EC311_Al-Project/assets/91548543/e977101c-096a-43e3-a047-4d76f38eaa59">
 
 
