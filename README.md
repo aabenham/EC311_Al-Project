@@ -29,7 +29,7 @@ Button M18: clear all characters
 
 Overview of the code structure (what code does what):
 
-Our system takes user input via 5 buttons on the FPGA board. The button signals run through debouncers afterwhich, their outputs are fed into the morse2text translator module. The morse2text module, based on order of input, will populate 2 registers with binary values, 0 for dot and 1 for dash. these registers are then fed into the FSM which based on how many times each button was pressed, will determine which decoder to use. The decoder will decode the bianary into anode and cathode bit values that can light up the seven segemnt display. 
+The system takes user input via 5 buttons on the FPGA board. The button signals run through debouncers afterwhich, their outputs are fed into the morse2text translator module. The morse2text module, based on order of input, will populate 2 registers with binary values, 0 for dot and 1 for dash. these registers are then fed into the FSM which based on how many times each button was pressed, will determine which decoder to use. The decoder will decode the bianary into anode and cathode bit values that can light up the seven segemnt display. 
 
 Block Diagram (full system):
 
