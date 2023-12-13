@@ -31,4 +31,5 @@ Overview of the code structure (what code does what):
 
 ![Morse_Code_Working -  X__Morse_Code_Working_Morse_Code_Working xpr  - Vivado 2022 2 12_13_2023 4_37_27 PM](https://github.com/aabenham/EC311_Al-Project/assets/140469099/27073280-520d-4ec0-8643-fff20849d860)
 
+![Morse_Code_Working -  X__Morse_Code_Working_Morse_Code_Working xpr  - Vivado 2022 2 12_13_2023 4_39_34 PM](https://github.com/aabenham/EC311_Al-Project/assets/140469099/849da4b6-3a5c-4ac3-ae87-42af05bb2021)
 
