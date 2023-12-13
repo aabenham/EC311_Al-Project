@@ -1,0 +1,20 @@
+`timescale 1ns / 1ps
+
+
+
+module slow_clock(
+    input clk_in,
+    output clk_out
+    );
+    
+    reg [25:0] count = 0;
+    reg clk_out;
+    
+    always @ (posedge clk_in) begin
+        count <= count + 1;
+        if(count == 12_500_000) begin
+            count <= 0;
+            clk_out=~clk_out;
+        end
+    end
+endmodule
