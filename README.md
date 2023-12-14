@@ -5,7 +5,7 @@ Project Name: Morse to Text Translator
 
 Group Members: Yiwen Wu, Muayad Al-Barwani, Rafi Uddin, Anas Benhamida
 
-Link to Project Demo Video: https://youtu.be/g8zxUu4kXT0 
+Link to Project Demo Video: https://drive.google.com/file/d/1pYKNWuUhHQ5AWkgDaSm1rvnLQKoUQFRY/view?usp=sharing 
 
 Project Overview: 
 This morse to text translator will translate morse code to text. There are 5 input buttons, Dot, Dash, translate, delete, and clear.
